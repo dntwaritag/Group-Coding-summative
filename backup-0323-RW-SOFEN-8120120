@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Details of the remote server
+remote_host="a0dfc11ba139.a982e858.alu-cod.online"
+remote_username="a0dfc11ba139"
+remote_password="899c79fc532cd0591af1"
+remote_directory="/home/sftp-student/03033/summative"
+
+# Create a backup directory name based on the negpod_id
+backup_directory="0323-RW-SOFEN-8120120 11-q1-backup"
+mkdir "$backup_directory"
+
+# Copy the directory created in question 2 to the remote server
+scp -r -p "$directory_name" "$remote_username"@"$remote_host":"$remote_directory"/"$backup_directory"
+
+echo "Backup created successfully."
+
