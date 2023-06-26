@@ -15,3 +15,9 @@ scp -r -p "$directory_name" "$remote_username"@"$remote_host":"$remote_directory
 
 echo "Backup created successfully."
 
+# Explanation of the script:
+# - This script creates a backup of a directory and copies it to a remote server.
+# - It requires the remote server details such as hostname, username, password, and directory path.
+# - It also creates a backup directory locally based on the negpod_id.
+# - The 'scp' command is used to securely copy the directory to the remote server.
+# - Finally, it outputs a message indicating the successful creation of the backup.
