@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-v.uwase@alustudent.com,2v.uwase@alustudent.com,382247457
-v.uwase@alustudent.com,2v.uwase@alustudent.com,382247457
-v.uwase@alustudent.com,21,382247457
-=======
 d.ntwaritag@alustudent.com,21,552267806
 j.holder@alustudent.com,19,231862443
 c.ekwedike@alustudent.com,23,280819064
 e.kporon@alustudent.com,24,573741818
->>>>>>> 3d112269e4c7a0dbb92b0b9aba4ca02d6eeb20c7
 v.uwase@alustudent.com,21,382247457
+
